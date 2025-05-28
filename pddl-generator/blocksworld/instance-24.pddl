@@ -3,11 +3,10 @@
   (:objects b1 b2 b3 b4)
   (:init
     (handempty)
-    (ontable b2)
     (ontable b1)
+    (on b2 b1)
     (on b4 b2)
-    (on b3 b1)
-    (clear b4)
+    (on b3 b4)
     (clear b3)
   )
   (:goal

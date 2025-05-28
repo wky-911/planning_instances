@@ -4,13 +4,10 @@
   (:init
     (handempty)
     (ontable b2)
-    (ontable b3)
-    (ontable b4)
-    (ontable b1)
-    (clear b2)
+    (on b1 b2)
+    (on b4 b1)
+    (on b3 b4)
     (clear b3)
-    (clear b4)
-    (clear b1)
   )
   (:goal
     (and
