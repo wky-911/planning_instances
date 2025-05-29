@@ -1,0 +1,21 @@
+(define (problem instance-6)
+  (:domain BLOCKS)
+  (:objects b1 b2 b3 b4 b5 b6)
+  (:init
+    (handempty)
+    (ontable b5)
+    (ontable b2)
+    (ontable b4)
+    (on b3 b4)
+    (on b1 b5)
+    (on b6 b3)
+    (clear b2)
+    (clear b1)
+    (clear b6)
+  )
+  (:goal
+    (and
+      (on b5 b1)
+    )
+  )
+)
