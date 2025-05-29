@@ -3,14 +3,13 @@
   (:objects b1 b2 b3 b4 b5 b6)
   (:init
     (handempty)
-    (ontable b4)
-    (ontable b3)
-    (on b6 b3)
-    (on b5 b6)
-    (on b2 b4)
+    (ontable b5)
     (on b1 b5)
-    (clear b2)
-    (clear b1)
+    (on b6 b1)
+    (on b3 b6)
+    (on b2 b3)
+    (on b4 b2)
+    (clear b4)
   )
   (:goal
     (and

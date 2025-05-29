@@ -3,18 +3,17 @@
   (:objects b1 b2 b3 b4 b5)
   (:init
     (handempty)
-    (ontable b3)
-    (ontable b5)
     (ontable b4)
-    (on b2 b4)
-    (on b1 b3)
+    (ontable b5)
+    (on b3 b4)
+    (on b2 b3)
+    (on b1 b2)
     (clear b5)
-    (clear b2)
     (clear b1)
   )
   (:goal
     (and
-      (on b3 b4)
+      (on b3 b1)
     )
   )
 )
